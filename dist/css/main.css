@@ -1,4 +1,10 @@
 body {
-  background: #000 url("../../background-stars.svg");
+  background: #000 url("../../images/background-stars.svg");
+  color: #fff;
+  font-family: "Antonio";
+}
+
+body nav h1 {
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=main.css.map */
