@@ -29,7 +29,19 @@
     </nav>
     <section class="mercury">
       <!-- <div class="mercuryImg"></div> -->
-      <img src="../../images/mercury/planet-mercury.svg" alt="IMG" />
+      <div class="images">
+        <img
+          src="../../images/mercury/planet-mercury.svg"
+          alt="IMG"
+          id="mercuryImg"
+        />
+        <img
+          src="../../images/mercury/geology-mercury.png"
+          alt="IMG"
+          id="geologyImg"
+          style="display: none"
+        />
+      </div>
       <div class="mercuryInfo">
         <h1>Mercury</h1>
         <p>
@@ -43,9 +55,9 @@
           <img src="../../images/icon-source.svg" alt="ICON" />
         </h3>
         <div class="buttonContainer">
-          <button class="active"><span>01</span> Overview</button>
-          <button><span>02</span> Internal Structure</button>
-          <button><span>03</span> Surface Geology</button>
+          <button class="overview active"><span>01</span> Overview</button>
+          <button class="structure"><span>02</span> Internal Structure</button>
+          <button class="geology"><span>03</span> Surface Geology</button>
         </div>
       </div>
     </section>
@@ -67,5 +79,6 @@
         <h1>430°C</h1>
       </div>
     </section>
+    <script src="../js/main.js"></script>
   </body>
 </html>
