@@ -1,5 +1,102 @@
-nav ul li a.active {
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+body nav ul li a.active {
   border-top: 5px solid #def4fc;
+}
+
+body .mercury {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 90vh;
+  padding: 0 160px;
+}
+
+body .mercuryInfo {
+  padding: 0 50px 0 190px;
+}
+
+body .mercuryInfo h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: "Antonio", sans-serif;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+body .mercuryInfo p {
+  max-width: 350px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 25px;
+}
+
+body .mercuryInfo h3 {
+  padding: 30px 0;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+body .mercuryInfo h3 span {
+  font-weight: 600;
+  text-decoration: underline;
+  opacity: 0.6;
+  padding-right: 5px;
+}
+
+body .mercury .buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .mercury .buttonContainer button {
+  background: none;
+  color: #fff;
+  font-family: "Spartan", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: start;
+  letter-spacing: 4px;
+  padding: 15px 0;
+  margin: 10px 0;
+  border: 1px solid #494949;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+body .mercury .buttonContainer button.active {
+  background: #419db9;
+}
+
+body .mercury .buttonContainer button:hover {
+  background: #333333;
+}
+
+body .mercury .buttonContainer button span {
+  padding: 0 20px;
+  opacity: 0.5;
 }
 
 * {
@@ -26,7 +123,7 @@ body nav {
           align-items: center;
   padding: 0 30px;
   text-transform: uppercase;
-  border-bottom: 2px solid #2e2e3b;
+  border-bottom: 1px solid #494949;
 }
 
 body nav ul {
