@@ -1,3 +1,7 @@
+nav ul li a.active {
+  border-top: 5px solid #def4fc;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +58,6 @@ body nav ul li a {
 }
 
 body nav ul li a.active {
-  border-top: 5px solid #fff;
   opacity: 1;
 }
 
@@ -62,9 +65,5 @@ body nav h1 {
   font-size: 1.75rem;
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-}
-
-.asd {
-  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
