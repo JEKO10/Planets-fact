@@ -8,6 +8,12 @@
   transition: all 300ms ease;
 }
 
+#earthM:hover {
+  border-top: 5px solid #5358fb;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
 #btnM button.active {
   background: #419db9;
 }
@@ -22,6 +28,12 @@ nav ul li a.active {
   transition: all 300ms ease;
 }
 
+#earthV:hover {
+  border-top: 5px solid #5358fb;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
 #btnV button.active {
   background: #eda44a;
 }
@@ -29,6 +41,26 @@ nav ul li a.active {
 #geologyVenusImg {
   height: 200px;
   margin-top: -5rem;
+}
+
+#earth {
+  border-top: 5px solid #5358fb;
+}
+
+#venusE:hover {
+  border-top: 5px solid #f7cc7e;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#mercuryE:hover {
+  border-top: 5px solid #def4fc;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#btnE button.active {
+  background: #6f2ed6;
 }
 
 * {

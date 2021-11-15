@@ -1,0 +1,17 @@
+#earth {
+  border-top: 5px solid #5358fb;
+}
+
+#venusE:hover {
+  border-top: 5px solid #f7cc7e;
+  transition: all 300ms ease;
+}
+
+#mercuryE:hover {
+  border-top: 5px solid #def4fc;
+  transition: all 300ms ease;
+}
+
+#btnE button.active {
+  background: #6f2ed6;
+}
