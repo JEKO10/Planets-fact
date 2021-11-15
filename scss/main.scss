@@ -129,10 +129,6 @@ body {
         cursor: pointer;
         transition: all 500ms ease;
 
-        &.active {
-          background: #419db9;
-        }
-
         &:hover {
           background: #333333;
         }
