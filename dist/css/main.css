@@ -63,6 +63,11 @@ nav ul li a.active {
   background: #6f2ed6;
 }
 
+#geologyEarthImg {
+  height: 200px;
+  margin-top: -7rem;
+}
+
 * {
   margin: 0;
   padding: 0;
