@@ -1,35 +1,24 @@
-const overview = document.querySelector(".overview");
-const structure = document.querySelector(".structure");
-const geology = document.querySelector(".geology");
-const mercuryImg = document.querySelector("#mercuryImg");
-const geologyImg = document.querySelector("#geologyImg");
+const overviewButton = document.querySelector(".overview");
+const structureButton = document.querySelector(".structure");
+const geologyButton = document.querySelector(".geology");
 
-overview.addEventListener("click", () => {
-  overview.classList.add("active");
+overviewButton.addEventListener("click", () => {
+  overviewButton.classList.add("active");
 
-  structure.classList.remove("active");
-  geology.classList.remove("active");
-
-  mercuryImg.src = "../../images/mercury/planet-mercury.svg";
-  geologyImg.style.display = "none";
+  structureButton.classList.remove("active");
+  geologyButton.classList.remove("active");
 });
 
-structure.addEventListener("click", () => {
-  structure.classList.add("active");
+structureButton.addEventListener("click", () => {
+  structureButton.classList.add("active");
 
-  overview.classList.remove("active");
-  geology.classList.remove("active");
-
-  mercuryImg.src = "../../images/mercury/planet-mercury-internal.svg";
-  geologyImg.style.display = "none";
+  overviewButton.classList.remove("active");
+  geologyButton.classList.remove("active");
 });
 
-geology.addEventListener("click", () => {
-  geology.classList.add("active");
+geologyButton.addEventListener("click", () => {
+  geologyButton.classList.add("active");
 
-  overview.classList.remove("active");
-  structure.classList.remove("active");
-
-  mercuryImg.src = "../../images/mercury/planet-mercury.svg";
-  geologyImg.style.display = "block";
+  overviewButton.classList.remove("active");
+  structureButton.classList.remove("active");
 });
