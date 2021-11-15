@@ -1,5 +1,21 @@
-body nav ul li a.active {
+#mercury {
   border-top: 5px solid #def4fc;
+}
+
+#venusM:hover {
+  border-top: 5px solid #f7cc7e;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+nav ul li a.active {
+  border-top: 5px solid #f7cc7e;
+}
+
+#mercuryV:hover {
+  border-top: 5px solid #def4fc;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 
 * {
@@ -59,6 +75,10 @@ body nav ul li a {
 }
 
 body nav ul li a.active {
+  opacity: 1;
+}
+
+body nav ul li a:hover {
   opacity: 1;
 }
 
@@ -130,11 +150,17 @@ body nav h1 {
   font-size: 0.9rem;
 }
 
-.main .planetInfo h3 span {
-  font-weight: 600;
+.main .planetInfo h3 a {
+  color: #fff;
+  font-weight: 800;
   text-decoration: underline;
-  opacity: 0.6;
-  padding-right: 5px;
+  opacity: 0.5;
+  padding: 0 5px;
+}
+
+.main .planetInfo h3 a img {
+  opacity: 1;
+  padding: 0 5px;
 }
 
 .main .planetInfo .buttonContainer {

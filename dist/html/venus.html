@@ -17,8 +17,8 @@
     <nav>
       <h1>The Planets</h1>
       <ul>
-        <li><a href="./mercury.html">Mercury</a></li>
-        <li><a href="./venus.html">Venus</a></li>
+        <li><a href="./mercury.html" id="mercuryV">Mercury</a></li>
+        <li><a href="./venus.html" class="active">Venus</a></li>
         <li><a href="">Earth</a></li>
         <li><a href="">Mars</a></li>
         <li><a href="">Jupiter</a></li>
@@ -27,6 +27,61 @@
         <li><a href="">Neptune</a></li>
       </ul>
     </nav>
-    <section class="venus"></section>
+    <section class="main">
+      <!-- <div class="mercuryImg"></div> -->
+      <div class="images">
+        <img
+          src="../../images/mercury/planet-mercury.svg"
+          alt="IMG"
+          id="mercuryImg"
+        />
+        <img
+          src="../../images/mercury/geology-mercury.png"
+          alt="IMG"
+          id="geologyImg"
+          style="display: none"
+        />
+      </div>
+      <div class="planetInfo">
+        <h1>Venus</h1>
+        <p>
+          Venus is the second planet from the Sun. It is named after the Roman
+          goddess of love and beauty. As the brightest natural object in Earth's
+          night sky after the Moon, Venus can cast shadows and can be, on rare
+          occasions, visible to the naked eye in broad daylight.
+        </p>
+        <h3>
+          Source:
+          <a href="https://en.wikipedia.org/wiki/Venus" target="__blank"
+            >Wikipedia
+            <img src="../../images/icon-source.svg" alt="ICON" />
+          </a>
+        </h3>
+        <div class="buttonContainer">
+          <button class="overview active"><span>01</span> Overview</button>
+          <button class="structure"><span>02</span> Internal Structure</button>
+          <button class="geology"><span>03</span> Surface Geology</button>
+        </div>
+      </div>
+    </section>
+    <section class="otherInfo">
+      <div>
+        <h5>Rotation Time</h5>
+        <h1>243 Days</h1>
+      </div>
+      <div>
+        <h5>Revolution Time</h5>
+        <h1>224.7 Days</h1>
+      </div>
+      <div>
+        <h5>Radius</h5>
+        <h1>6,051.8 km</h1>
+      </div>
+      <div>
+        <h5>Average Temp.</h5>
+        <h1>471°C</h1>
+      </div>
+    </section>
+    <script src="../js/main.js"></script>
   </body>
 </html>
