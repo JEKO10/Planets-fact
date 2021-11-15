@@ -2,36 +2,12 @@
   border-top: 5px solid #def4fc;
 }
 
-#venusM:hover {
-  border-top: 5px solid #f7cc7e;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-#earthM:hover {
-  border-top: 5px solid #5358fb;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
 #btnM button.active {
   background: #419db9;
 }
 
 nav ul li a.active {
   border-top: 5px solid #f7cc7e;
-}
-
-#mercuryV:hover {
-  border-top: 5px solid #def4fc;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-#earthV:hover {
-  border-top: 5px solid #5358fb;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
 }
 
 #btnV button.active {
@@ -47,18 +23,6 @@ nav ul li a.active {
   border-top: 5px solid #5358fb;
 }
 
-#venusE:hover {
-  border-top: 5px solid #f7cc7e;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-#mercuryE:hover {
-  border-top: 5px solid #def4fc;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
 #btnE button.active {
   background: #6f2ed6;
 }
@@ -66,6 +30,14 @@ nav ul li a.active {
 #geologyEarthImg {
   height: 200px;
   margin-top: -7rem;
+}
+
+#mars {
+  border-top: 5px solid #ff6c47;
+}
+
+#btnE button.active {
+  background: #6f2ed6;
 }
 
 * {
@@ -285,5 +257,29 @@ body nav h1 {
 .otherInfo div h1 {
   font-size: 2.5rem;
   font-family: "Antonio", sans-serif;
+}
+
+#mercuryOther:hover {
+  border-top: 5px solid #def4fc;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#venusOther:hover {
+  border-top: 5px solid #f7cc7e;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#earthOther:hover {
+  border-top: 5px solid #5358fb;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#marsOther:hover {
+  border-top: 5px solid #ff6c47;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
 }
 /*# sourceMappingURL=main.css.map */

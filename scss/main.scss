@@ -2,6 +2,7 @@
 @import "mercury";
 @import "venus";
 @import "earth";
+@import "mars";
 
 * {
   margin: 0;
@@ -165,4 +166,24 @@ body {
       font-family: "Antonio", sans-serif;
     }
   }
+}
+
+#mercuryOther:hover {
+  border-top: 5px solid #def4fc;
+  transition: all 300ms ease;
+}
+
+#venusOther:hover {
+  border-top: 5px solid #f7cc7e;
+  transition: all 300ms ease;
+}
+
+#earthOther:hover {
+  border-top: 5px solid #5358fb;
+  transition: all 300ms ease;
+}
+
+#marsOther:hover {
+  border-top: 5px solid #ff6c47;
+  transition: all 300ms ease;
 }

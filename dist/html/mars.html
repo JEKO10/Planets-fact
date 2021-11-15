@@ -11,16 +11,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Planets fact - Venus</title>
+    <title>Planets fact - Mars</title>
   </head>
   <body>
     <nav>
       <h1>The Planets</h1>
       <ul>
         <li><a href="./mercury.html" id="mercuryOther">Mercury</a></li>
-        <li><a href="./venus.html" class="active">Venus</a></li>
+        <li><a href="./venus.html" id="venusOther">Venus</a></li>
         <li><a href="./earth.html" id="earthOther">Earth</a></li>
-        <li><a href="./mars.html" id="marsOther">Mars</a></li>
+        <li><a href="./mars.html" class="active" id="mars">Mars</a></li>
         <li><a href="">Jupiter</a></li>
         <li><a href="">Satrun</a></li>
         <li><a href="">Uranus</a></li>
@@ -31,33 +31,33 @@
       <!-- <div class="mercuryImg"></div> -->
       <div class="images">
         <img
-          src="../../images/venus/planet-venus.svg"
+          src="../../images/earth/planet-earth.svg"
           alt="IMG"
-          id="venusImg"
+          id="earthImg"
         />
         <img
-          src="../../images/venus/geology-venus.png"
+          src="../../images/earth/geology-earth.png"
           alt="IMG"
-          id="geologyVenusImg"
+          id="geologyEarthImg"
           style="display: none"
         />
       </div>
       <div class="planetInfo">
-        <h1>Venus</h1>
+        <h1>Earth</h1>
         <p>
-          Venus is the second planet from the Sun. It is named after the Roman
-          goddess of love and beauty. As the brightest natural object in Earth's
-          night sky after the Moon, Venus can cast shadows and can be, on rare
-          occasions, visible to the naked eye in broad daylight.
+          Third planet from the Sun and the only known planet to harbor life.
+          About 29.2% of Earth's surface is land with remaining 70.8% is covered
+          with water. Earth's distance from the Sun, physical properties and
+          geological history have allowed life to evolve and thrive.
         </p>
         <h3>
           Source:
-          <a href="https://en.wikipedia.org/wiki/Venus" target="__blank"
+          <a href="https://en.wikipedia.org/wiki/Earth" target="__blank"
             >Wikipedia
             <img src="../../images/icon-source.svg" alt="ICON" />
           </a>
         </h3>
-        <div class="buttonContainer" id="btnV">
+        <div class="buttonContainer" id="btnE">
           <button class="overview active"><span>01</span> Overview</button>
           <button class="structure"><span>02</span> Internal Structure</button>
           <button class="geology"><span>03</span> Surface Geology</button>
@@ -67,22 +67,22 @@
     <section class="otherInfo">
       <div>
         <h5>Rotation Time</h5>
-        <h1>243 Days</h1>
+        <h1>0.99 Days</h1>
       </div>
       <div>
         <h5>Revolution Time</h5>
-        <h1>224.7 Days</h1>
+        <h1>365.2 Days</h1>
       </div>
       <div>
         <h5>Radius</h5>
-        <h1>6,051.8 km</h1>
+        <h1>6,371 km</h1>
       </div>
       <div>
         <h5>Average Temp.</h5>
-        <h1>471°C</h1>
+        <h1>16°C</h1>
       </div>
     </section>
     <script src="../js/main.js"></script>
-    <script src="../js/venusMain.js"></script>
+    <script src="../js/earthMain.js"></script>
   </body>
 </html>
