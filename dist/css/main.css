@@ -45,6 +45,10 @@ nav ul li a.active {
   margin-top: -5rem;
 }
 
+#jupiter {
+  border-top: 5px solid #ecad79;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -284,6 +288,12 @@ body nav h1 {
 
 #marsOther:hover {
   border-top: 5px solid #ff6c47;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+#jupiterOther:hover {
+  border-top: 5px solid #ecad79;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }

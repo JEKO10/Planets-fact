@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Planets fact - Earth</title>
+    <title>Planets fact - Jupiter</title>
   </head>
   <body>
     <nav>
@@ -19,9 +19,11 @@
       <ul>
         <li><a href="./mercury.html" id="mercuryOther">Mercury</a></li>
         <li><a href="./venus.html" id="venusOther">Venus</a></li>
-        <li><a href="./earth.html" class="active" id="earth">Earth</a></li>
+        <li><a href="./earth.html" id="earthOther">Earth</a></li>
         <li><a href="./mars.html" id="marsOther">Mars</a></li>
-        <li><a href="./jupiter.html" id="jupiterOther">Jupiter</a></li>
+        <li>
+          <a href="./jupiter.html" class="active" id="jupiter">Jupiter</a>
+        </li>
         <li><a href="">Satrun</a></li>
         <li><a href="">Uranus</a></li>
         <li><a href="">Neptune</a></li>
@@ -30,34 +32,30 @@
     <section class="main">
       <!-- <div class="mercuryImg"></div> -->
       <div class="images">
+        <img src="../../images/mars/planet-mars.svg" alt="IMG" id="marsImg" />
         <img
-          src="../../images/earth/planet-earth.svg"
+          src="../../images/mars/geology-mars.png"
           alt="IMG"
-          id="earthImg"
-        />
-        <img
-          src="../../images/earth/geology-earth.png"
-          alt="IMG"
-          id="geologyEarthImg"
+          id="geologyMarsImg"
           style="display: none"
         />
       </div>
       <div class="planetInfo">
-        <h1>Earth</h1>
+        <h1>Mars</h1>
         <p>
-          Third planet from the Sun and the only known planet to harbor life.
-          About 29.2% of Earth's surface is land with remaining 70.8% is covered
-          with water. Earth's distance from the Sun, physical properties and
-          geological history have allowed life to evolve and thrive.
+          Mars is the fourth planet from the Sun and the second-smallest planet
+          in the Solar System, being larger than only Mercury. In English, Mars
+          carries the name of the Roman god of war and is often referred to as
+          the "Red Planet".
         </p>
         <h3>
           Source:
-          <a href="https://en.wikipedia.org/wiki/Earth" target="__blank"
+          <a href="https://en.wikipedia.org/wiki/Mars" target="__blank"
             >Wikipedia
             <img src="../../images/icon-source.svg" alt="ICON" />
           </a>
         </h3>
-        <div class="buttonContainer" id="btnE">
+        <div class="buttonContainer" id="btnM">
           <button class="overview active"><span>01</span> Overview</button>
           <button class="structure"><span>02</span> Internal Structure</button>
           <button class="geology"><span>03</span> Surface Geology</button>
@@ -67,22 +65,21 @@
     <section class="otherInfo">
       <div>
         <h5>Rotation Time</h5>
-        <h1>0.99 Days</h1>
+        <h1>1.03 Days</h1>
       </div>
       <div>
         <h5>Revolution Time</h5>
-        <h1>365.2 Days</h1>
+        <h1>1.88 Years</h1>
       </div>
       <div>
         <h5>Radius</h5>
-        <h1>6,371 km</h1>
+        <h1>3,389.5 km</h1>
       </div>
       <div>
         <h5>Average Temp.</h5>
-        <h1>16°C</h1>
+        <h1>-28°C</h1>
       </div>
     </section>
     <script src="../js/main.js"></script>
-    <script src="../js/earthMain.js"></script>
   </body>
 </html>

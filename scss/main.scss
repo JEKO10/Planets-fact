@@ -3,6 +3,7 @@
 @import "venus";
 @import "earth";
 @import "mars";
+@import "jupiter";
 
 * {
   margin: 0;
@@ -185,5 +186,10 @@ body {
 
 #marsOther:hover {
   border-top: 5px solid #ff6c47;
+  transition: all 300ms ease;
+}
+
+#jupiterOther:hover {
+  border-top: 5px solid #ecad79;
   transition: all 300ms ease;
 }
