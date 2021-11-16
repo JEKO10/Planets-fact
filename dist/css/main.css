@@ -36,7 +36,7 @@ nav ul li a.active {
   border-top: 5px solid #ff6c47;
 }
 
-#btnM button.active {
+#btnMars button.active {
   background: #d14e33;
 }
 
@@ -47,6 +47,10 @@ nav ul li a.active {
 
 #jupiter {
   border-top: 5px solid #ecad79;
+}
+
+#btnJ button.active {
+  background: #d93b36;
 }
 
 * {
