@@ -5,6 +5,7 @@
 @import "mars";
 @import "jupiter";
 @import "saturn";
+@import "uranus";
 
 * {
   margin: 0;
@@ -197,5 +198,10 @@ body {
 
 #saturnOther:hover {
   border-top: 5px solid #fccb69;
+  transition: all 300ms ease;
+}
+
+#uranusOther:hover {
+  border-top: 5px solid #66f0d4;
   transition: all 300ms ease;
 }
