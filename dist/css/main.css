@@ -66,6 +66,19 @@ nav ul li a.active {
   border-top: 5px solid #fccb69;
 }
 
+#infoSaturn {
+  padding: 0 0 0 50px;
+}
+
+#btnS button.active {
+  background: #cb5020;
+}
+
+#geologySaturnImg {
+  height: 200px;
+  margin-top: -13rem;
+}
+
 * {
   margin: 0;
   padding: 0;
