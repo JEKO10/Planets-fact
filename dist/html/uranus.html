@@ -11,7 +11,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Planets fact - Earth</title>
+    <title>Planets fact - Uranus</title>
   </head>
   <body>
     <nav>
@@ -19,11 +19,13 @@
       <ul>
         <li><a href="./mercury.html" id="mercuryOther">Mercury</a></li>
         <li><a href="./venus.html" id="venusOther">Venus</a></li>
-        <li><a href="./earth.html" class="active" id="earth">Earth</a></li>
+        <li><a href="./earth.html" id="earthOther">Earth</a></li>
         <li><a href="./mars.html" id="marsOther">Mars</a></li>
-        <li><a href="./jupiter.html" id="jupiterOther">Jupiter</a></li>
+        <li>
+          <a href="./jupiter.html" id="jupiterOther">Jupiter</a>
+        </li>
         <li><a href="./saturn.html" id="saturnOther">Satrun</a></li>
-        <li><a href="./uranus.html" id="uranusOther">Uranus</a></li>
+        <li><a href="./uranus.html" class="active" id="uranus">Uranus</a></li>
         <li><a href="">Neptune</a></li>
       </ul>
     </nav>
@@ -31,33 +33,33 @@
       <!-- <div class="mercuryImg"></div> -->
       <div class="images">
         <img
-          src="../../images/earth/planet-earth.svg"
+          src="../../images/saturn/planet-saturn.svg"
           alt="IMG"
-          id="earthImg"
+          id="saturnImg"
         />
         <img
-          src="../../images/earth/geology-earth.png"
+          src="../../images/saturn/geology-saturn.png"
           alt="IMG"
-          id="geologyEarthImg"
+          id="geologySaturnImg"
           style="display: none"
         />
       </div>
-      <div class="planetInfo">
-        <h1>Earth</h1>
+      <div class="planetInfo" id="infoSaturn">
+        <h1>Saturn</h1>
         <p>
-          Third planet from the Sun and the only known planet to harbor life.
-          About 29.2% of Earth's surface is land with remaining 70.8% is covered
-          with water. Earth's distance from the Sun, physical properties and
-          geological history have allowed life to evolve and thrive.
+          Saturn is the sixth planet from the Sun and the second-largest in the
+          Solar System, after Jupiter. It is a gas giant with an average radius
+          of about nine and a half times that of Earth. It only has one-eighth
+          the average density of Earth.
         </p>
         <h3>
           Source:
-          <a href="https://en.wikipedia.org/wiki/Earth" target="__blank"
+          <a href="https://en.wikipedia.org/wiki/Saturn" target="__blank"
             >Wikipedia
             <img src="../../images/icon-source.svg" alt="ICON" />
           </a>
         </h3>
-        <div class="buttonContainer" id="btnE">
+        <div class="buttonContainer" id="btnS">
           <button class="overview active"><span>01</span> Overview</button>
           <button class="structure"><span>02</span> Internal Structure</button>
           <button class="geology"><span>03</span> Surface Geology</button>
@@ -67,22 +69,22 @@
     <section class="otherInfo">
       <div>
         <h5>Rotation Time</h5>
-        <h1>0.99 Days</h1>
+        <h1>10.8 Hours</h1>
       </div>
       <div>
         <h5>Revolution Time</h5>
-        <h1>365.2 Days</h1>
+        <h1>29.46 Years</h1>
       </div>
       <div>
         <h5>Radius</h5>
-        <h1>6,371 km</h1>
+        <h1>58,232 km</h1>
       </div>
       <div>
         <h5>Average Temp.</h5>
-        <h1>16°C</h1>
+        <h1>-138°C</h1>
       </div>
     </section>
     <script src="../js/main.js"></script>
-    <script src="../js/earthMain.js"></script>
+    <script src="../js/saturnMain.js"></script>
   </body>
 </html>
