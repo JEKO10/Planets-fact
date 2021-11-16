@@ -11,18 +11,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Planets fact - Venus</title>
+    <title>Planets fact - Saturn</title>
   </head>
   <body>
     <nav>
       <h1>The Planets</h1>
       <ul>
         <li><a href="./mercury.html" id="mercuryOther">Mercury</a></li>
-        <li><a href="./venus.html" class="active">Venus</a></li>
+        <li><a href="./venus.html" id="venusOther">Venus</a></li>
         <li><a href="./earth.html" id="earthOther">Earth</a></li>
         <li><a href="./mars.html" id="marsOther">Mars</a></li>
-        <li><a href="./jupiter.html" id="jupiterOther">Jupiter</a></li>
-        <li><a href="./saturn.html" id="saturnOther">Satrun</a></li>
+        <li>
+          <a href="./jupiter.html" id="jupiterOther">Jupiter</a>
+        </li>
+        <li><a href="./saturn.html" class="active" id="saturn">Satrun</a></li>
         <li><a href="">Uranus</a></li>
         <li><a href="">Neptune</a></li>
       </ul>
@@ -31,33 +33,33 @@
       <!-- <div class="mercuryImg"></div> -->
       <div class="images">
         <img
-          src="../../images/venus/planet-venus.svg"
+          src="../../images/jupiter/planet-jupiter.svg"
           alt="IMG"
-          id="venusImg"
+          id="jupiterImg"
         />
         <img
-          src="../../images/venus/geology-venus.png"
+          src="../../images/jupiter/geology-jupiter.png"
           alt="IMG"
-          id="geologyVenusImg"
+          id="geologyJupiterImg"
           style="display: none"
         />
       </div>
-      <div class="planetInfo">
-        <h1>Venus</h1>
+      <div class="planetInfo" id="infoJupiter">
+        <h1>Jupiter</h1>
         <p>
-          Venus is the second planet from the Sun. It is named after the Roman
-          goddess of love and beauty. As the brightest natural object in Earth's
-          night sky after the Moon, Venus can cast shadows and can be, on rare
-          occasions, visible to the naked eye in broad daylight.
+          Jupiter is the fifth planet from the Sun and the largest in the Solar
+          System. It is a gas giant with a mass two and a half times that of all
+          the other planets in the Solar System combined, but less than
+          one-thousandth the mass of the Sun.
         </p>
         <h3>
           Source:
-          <a href="https://en.wikipedia.org/wiki/Venus" target="__blank"
+          <a href="https://en.wikipedia.org/wiki/Jupiter" target="__blank"
             >Wikipedia
             <img src="../../images/icon-source.svg" alt="ICON" />
           </a>
         </h3>
-        <div class="buttonContainer" id="btnV">
+        <div class="buttonContainer" id="btnJ">
           <button class="overview active"><span>01</span> Overview</button>
           <button class="structure"><span>02</span> Internal Structure</button>
           <button class="geology"><span>03</span> Surface Geology</button>
@@ -67,22 +69,21 @@
     <section class="otherInfo">
       <div>
         <h5>Rotation Time</h5>
-        <h1>243 Days</h1>
+        <h1>9.93 Hours</h1>
       </div>
       <div>
         <h5>Revolution Time</h5>
-        <h1>224.7 Days</h1>
+        <h1>11.86 Years</h1>
       </div>
       <div>
         <h5>Radius</h5>
-        <h1>6,051.8 km</h1>
+        <h1>69,911 km</h1>
       </div>
       <div>
         <h5>Average Temp.</h5>
-        <h1>471°C</h1>
+        <h1>-108°C</h1>
       </div>
     </section>
     <script src="../js/main.js"></script>
-    <script src="../js/venusMain.js"></script>
   </body>
 </html>
