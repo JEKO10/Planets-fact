@@ -229,12 +229,86 @@ nav ul li a.active {
   }
   #hamburgerBtn {
     display: block !important;
+    z-index: 2;
   }
-  .links {
+  .fix {
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
   }
-  .links.active {
+  .fix.active {
     display: block;
+  }
+  .fix .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+  .fix .links li {
+    width: 90%;
+    font-size: 0.9375rem;
+  }
+  .fix .links a {
+    padding: 20px 10px;
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #494949;
+  }
+  .fix .links a div {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  .fix .links a #mercuryBall {
+    background-color: #def4fc;
+  }
+  .fix .links a #venusBall {
+    background-color: #f7cc7e;
+  }
+  .fix .links a #earthBall {
+    background-color: #5358fb;
+  }
+  .fix .links a #marsBall {
+    background-color: #ff6c47;
+  }
+  .fix .links a #jupiterBall {
+    background-color: #ecad79;
+  }
+  .fix .links a #saturnBall {
+    background-color: #fccb69;
+  }
+  .fix .links a #uranusBall {
+    background-color: #66f0d4;
+  }
+  .fix .links a #neptuneBall {
+    background-color: #477dfa;
   }
   .planetInfo {
     text-align: center;
@@ -438,9 +512,9 @@ body nav h1 {
   padding: 0 5px;
 }
 
-.main .planetInfo h3 a img {
+.main .planetInfo h3 a svg {
   opacity: 1;
-  padding: 0 5px;
+  margin: 0 5px;
 }
 
 .main .planetInfo .buttonContainer {
