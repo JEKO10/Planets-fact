@@ -105,6 +105,75 @@ nav ul li a.active {
   margin-top: -7rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 850px !important;
+  }
+  .main #mercuryImg,
+  .main #venusImg,
+  .main #earthImg,
+  .main #marsImg,
+  .main #jupiterImg,
+  .main #uranusImg,
+  .main #neptuneImg,
+  .main #saturnImg {
+    margin: 3rem 0;
+  }
+  .main #mercuryImg {
+    max-width: 184px;
+  }
+  .main #venusImg {
+    max-width: 253px;
+  }
+  .main #earthImg {
+    max-width: 285px;
+  }
+  .main #marsImg {
+    max-width: 213px;
+  }
+  .main #jupiterImg {
+    max-width: 369px;
+  }
+  .main #uranusImg {
+    max-width: 290px;
+  }
+  .main #neptuneImg {
+    max-width: 285px;
+  }
+  .main #saturnImg {
+    max-width: 422px;
+  }
+  .main .planetInfo {
+    min-width: 100%;
+    padding: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .otherInfo div h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -302,8 +371,7 @@ body nav h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 2rem;
-  padding: 0 130px;
+  margin: 2rem 0;
 }
 
 .otherInfo div {

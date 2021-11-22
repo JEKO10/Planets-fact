@@ -1,0 +1,60 @@
+@include mediaLarge {
+  .main {
+    @include flex(center, center);
+    flex-direction: column;
+    max-width: 850px !important;
+
+    #mercuryImg,
+    #venusImg,
+    #earthImg,
+    #marsImg,
+    #jupiterImg,
+    #uranusImg,
+    #neptuneImg,
+    #saturnImg {
+      margin: 3rem 0;
+    }
+
+    #mercuryImg {
+      max-width: 184px;
+    }
+
+    #venusImg {
+      max-width: 253px;
+    }
+
+    #earthImg {
+      max-width: 285px;
+    }
+
+    #marsImg {
+      max-width: 213px;
+    }
+
+    #jupiterImg {
+      max-width: 369px;
+    }
+
+    #uranusImg {
+      max-width: 290px;
+    }
+
+    #neptuneImg {
+      max-width: 285px;
+    }
+
+    #saturnImg {
+      max-width: 422px;
+    }
+
+    .planetInfo {
+      min-width: 100%;
+      padding: 0 !important;
+      @include flex(space-between, center);
+    }
+  }
+
+  .otherInfo div h1 {
+    font-size: 1.5rem !important;
+  }
+}

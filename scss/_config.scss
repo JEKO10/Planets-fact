@@ -4,8 +4,32 @@
   align-items: $align;
 }
 
-@mixin avatar($class) {
-  @if $class {
-    color: red;
+@mixin mediaLarge {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin mediaMediumLarge {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin mediaMedium {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaMediumLow {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
+
+@mixin mediaSmall {
+  @media screen and (max-width: 480px) {
+    @content;
   }
 }

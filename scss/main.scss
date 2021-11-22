@@ -7,6 +7,7 @@
 @import "saturn";
 @import "uranus";
 @import "neptune";
+@import "responsive";
 
 * {
   margin: 0;
@@ -22,6 +23,7 @@ body {
   nav {
     @include flex(space-between, center);
     padding: 0 30px;
+    // margin-bottom: 1rem;
     text-transform: uppercase;
     border-bottom: 1px solid #494949;
 
@@ -150,8 +152,8 @@ body {
 
 .otherInfo {
   @include flex(space-evenly, center);
-  margin-bottom: 2rem;
-  padding: 0 130px;
+  margin: 2rem 0;
+  // padding: 0 130px;
 
   div {
     border: 1px solid #494949;
