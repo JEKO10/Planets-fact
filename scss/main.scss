@@ -27,6 +27,12 @@ body {
     text-transform: uppercase;
     border-bottom: 1px solid #494949;
 
+    #hamburgerBtn {
+      display: none;
+      background: none;
+      border: none;
+    }
+
     ul {
       @include flex(space-between, center);
       list-style-type: none;

@@ -226,6 +226,62 @@ nav ul li a.active {
   }
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #hamburgerBtn {
+    display: block !important;
+  }
+  .links {
+    display: none;
+  }
+  .links.active {
+    display: block;
+  }
+  .planetInfo {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 2rem 0;
+  }
+  .planetInfo p {
+    max-width: 500px !important;
+    padding: 0 20px;
+  }
+  .planetInfo .buttonContainer {
+    width: 100%;
+  }
+  .otherInfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .otherInfo div {
+    width: 95% !important;
+    margin: 1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 5px !important;
+  }
+  .otherInfo div h5 {
+    padding-bottom: 0 !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -252,6 +308,12 @@ body nav {
   padding: 0 30px;
   text-transform: uppercase;
   border-bottom: 1px solid #494949;
+}
+
+body nav #hamburgerBtn {
+  display: none;
+  background: none;
+  border: none;
 }
 
 body nav ul {

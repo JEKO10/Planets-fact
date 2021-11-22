@@ -118,3 +118,51 @@
     }
   }
 }
+
+@include mediaMedium {
+  nav {
+    flex-direction: row;
+  }
+
+  #hamburgerBtn {
+    display: block !important;
+  }
+
+  .links {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  .planetInfo {
+    text-align: center;
+    flex-direction: column;
+    margin: 2rem 0;
+
+    p {
+      max-width: 500px !important;
+      padding: 0 20px;
+    }
+
+    .buttonContainer {
+      width: 100%;
+    }
+  }
+
+  .otherInfo {
+    flex-direction: column;
+
+    div {
+      width: 95% !important;
+      margin: 1rem 0;
+      @include flex(space-between, center);
+      padding: 10px 5px !important;
+
+      h5 {
+        padding-bottom: 0 !important;
+      }
+    }
+  }
+}
