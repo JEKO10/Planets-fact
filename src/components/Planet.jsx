@@ -1,14 +1,20 @@
-function Planet({ planet }) {
-  const { name, overview, rotation, revolution, radius, temperature } = planet;
+import { useParams } from "react-router-dom";
+import data from "../data.json";
+
+function Planet() {
+  const { id } = useParams();
+
+  const { name, overview, rotation, revolution, radius, temperature } =
+    data[id];
 
   return (
     <>
-      <section class="main">
-        <div class="images">
+      <section className="main">
+        <div className="images">
           <img alt="IMG" id="planetImg" />
           <img alt="IMG" id="geologyImg" style={{ display: "none" }} />
         </div>
-        <div class="planetInfo">
+        <div className="planetInfo">
           <div>
             <h1>{name}</h1>
             <p>{overview.content}</p>
@@ -26,20 +32,20 @@ function Planet({ planet }) {
               </a>
             </h3>
           </div>
-          <div class="buttonContainer" id="btnE">
-            <button class="overview active">
+          <div className="buttonContainer" id="btnE">
+            <button className="overview active">
               <span>01</span> Overview
             </button>
-            <button class="structure">
+            <button className="structure">
               <span>02</span> Internal Structure
             </button>
-            <button class="geology">
+            <button className="geology">
               <span>03</span> Surface Geology
             </button>
           </div>
         </div>
       </section>
-      <section class="otherInfo">
+      <section className="otherInfo">
         <div>
           <h5>Rotation Time</h5>
           <h1>{rotation}</h1>
