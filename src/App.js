@@ -1,5 +1,11 @@
+import PlanetS from "./components/Planets";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <PlanetS />
+    </>
+  );
 }
 
 export default App;
