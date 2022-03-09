@@ -12,6 +12,11 @@ body {
     text-transform: uppercase;
     border-bottom: 1px solid #494949;
 
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+
     #hamburgerBtn {
       display: none;
       background: none;
@@ -50,6 +55,29 @@ body {
       font-size: 1.75rem;
       font-family: "Antonio", sans-serif;
       font-weight: 400;
+    }
+  }
+}
+
+.error {
+  text-align: center;
+  padding: 100px 30px;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  a {
+    color: #fff;
+    font-size: 2rem;
+    transition: all 1s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      padding: 20px 30px;
+      border-radius: 20px;
     }
   }
 }

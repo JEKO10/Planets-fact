@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <nav>
-      <h1>The Planets</h1>
+      <Link to="/">
+        <h1>The Planets</h1>
+      </Link>
       <button id="hamburgerBtn">
         <img src="./icon-hamburger.svg" alt="btn" />
       </button>
