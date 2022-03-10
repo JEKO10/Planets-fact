@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import data from "../data.json";
 
-function Planet() {
+function Planet({ color }) {
   const { id } = useParams();
-
+  const [internal, setInternal] = useState(false);
+  const [active, setActive] = useState("overview");
   const { name, overview, rotation, revolution, radius, temperature, images } =
     data[id];
 
@@ -11,8 +13,11 @@ function Planet() {
     <>
       <section className="main">
         <div className="images">
-          <img src={images.planet} alt="IMG" id="planetImg" />
-          <img src={images.internal} alt="IMG" style={{ display: "none" }} />
+          {!internal ? (
+            <img src={images.planet} alt="IMG" />
+          ) : (
+            <img src={images.internal} alt="IMG" />
+          )}
           <img
             src={images.geology}
             alt="IMG"
@@ -39,13 +44,45 @@ function Planet() {
             </h3>
           </div>
           <div className="buttonContainer" id="btnE">
-            <button className="overview active">
+            <button
+              style={
+                active === "overview"
+                  ? { backgroundColor: color }
+                  : { backgroundColor: "" }
+              }
+              className={active === "overview" ? "active" : ""}
+              onClick={() => {
+                setInternal(false);
+                setActive("overview");
+              }}
+            >
               <span>01</span> Overview
             </button>
-            <button className="structure">
+            <button
+              style={
+                active === "internal"
+                  ? { backgroundColor: color }
+                  : { backgroundColor: "" }
+              }
+              className={active === "internal" ? "active" : ""}
+              onClick={() => {
+                setInternal(true);
+                setActive("internal");
+              }}
+            >
               <span>02</span> Internal Structure
             </button>
-            <button className="geology">
+            <button
+              style={
+                active === "geology"
+                  ? { backgroundColor: color }
+                  : { backgroundColor: "" }
+              }
+              className={active === "geology" ? "active" : ""}
+              onClick={() => {
+                setActive("geology");
+              }}
+            >
               <span>03</span> Surface Geology
             </button>
           </div>

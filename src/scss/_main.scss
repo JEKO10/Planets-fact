@@ -1,7 +1,6 @@
 .main {
-  @include flex(flex-end, center);
+  @include flex(space-between, center);
   min-height: 90vh;
-  // padding: 0 160px;
   max-width: 1100px;
   margin: 0 auto;
 
@@ -11,12 +10,12 @@
 
     #geologyImg {
       height: 200px;
-      margin-top: -2rem;
+      margin-top: -7rem;
     }
   }
 
   .planetInfo {
-    padding: 0 50px 0 190px;
+    padding: 0 50px 0 30px;
 
     h1 {
       font-size: 5rem;
