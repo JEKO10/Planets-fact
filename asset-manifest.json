@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Planets-fact/static/css/main.82a5730b.css",
-    "main.js": "/Planets-fact/static/js/main.086942b3.js",
+    "main.css": "/Planets-fact/static/css/main.b81743d6.css",
+    "main.js": "/Planets-fact/static/js/main.9067349c.js",
     "static/js/787.f80d8f82.chunk.js": "/Planets-fact/static/js/787.f80d8f82.chunk.js",
     "static/media/background-stars.svg": "/Planets-fact/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
     "index.html": "/Planets-fact/index.html",
-    "main.82a5730b.css.map": "/Planets-fact/static/css/main.82a5730b.css.map",
-    "main.086942b3.js.map": "/Planets-fact/static/js/main.086942b3.js.map",
+    "main.b81743d6.css.map": "/Planets-fact/static/css/main.b81743d6.css.map",
+    "main.9067349c.js.map": "/Planets-fact/static/js/main.9067349c.js.map",
     "787.f80d8f82.chunk.js.map": "/Planets-fact/static/js/787.f80d8f82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a5730b.css",
-    "static/js/main.086942b3.js"
+    "static/css/main.b81743d6.css",
+    "static/js/main.9067349c.js"
   ]
 }
