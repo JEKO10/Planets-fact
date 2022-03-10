@@ -4,15 +4,21 @@ import data from "../data.json";
 function Planet() {
   const { id } = useParams();
 
-  const { name, overview, rotation, revolution, radius, temperature } =
+  const { name, overview, rotation, revolution, radius, temperature, images } =
     data[id];
 
   return (
     <>
       <section className="main">
         <div className="images">
-          <img alt="IMG" id="planetImg" />
-          <img alt="IMG" id="geologyImg" style={{ display: "none" }} />
+          <img src={images.planet} alt="IMG" id="planetImg" />
+          <img src={images.internal} alt="IMG" style={{ display: "none" }} />
+          <img
+            src={images.geology}
+            alt="IMG"
+            id="geologyImg"
+            style={{ display: "none" }}
+          />
         </div>
         <div className="planetInfo">
           <div>
