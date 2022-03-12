@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import mercury from "../images/planet-mercury.svg";
-import venus from "../images/planet-venus.svg";
-import earth from "../images/planet-earth.svg";
-import mars from "../images/planet-mars.svg";
-import jupiter from "../images/planet-jupiter.svg";
-import saturn from "../images/planet-saturn.svg";
-import uranus from "../images/planet-uranus.svg";
-import neptune from "../images/planet-neptune.svg";
+import mercury from "../assets/planet-mercury.svg";
+import venus from "../assets/planet-venus.svg";
+import earth from "../assets/planet-earth.svg";
+import mars from "../assets/planet-mars.svg";
+import jupiter from "../assets/planet-jupiter.svg";
+import saturn from "../assets/planet-saturn.svg";
+import uranus from "../assets/planet-uranus.svg";
+import neptune from "../assets/planet-neptune.svg";
 
 function Home({ setColor, setBorder }) {
   return (

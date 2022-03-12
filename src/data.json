@@ -19,9 +19,9 @@
     "radius": "2,439.7 KM",
     "temperature": "430°c",
     "images": {
-      "planet": "./images/planet-mercury.svg",
-      "internal": "./images/planet-mercury-internal.svg",
-      "geology": "./images/geology-mercury.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-mercury.svg?1fce205c50f4657418d4562ca24b008a",
+      "internal": "https://planets-tediko.netlify.app/images/planet-mercury-internal.svg?d1be143201898fac437968baae616e6b",
+      "geology": "https://planets-tediko.netlify.app/images/planet-mercury-geology.png?aa6732c318454e3fc4806f4376588531"
     }
   },
   {
@@ -44,9 +44,9 @@
     "radius": "6,051.8 KM",
     "temperature": "471°c",
     "images": {
-      "planet": "./images/planet-venus.svg",
-      "internal": "./images/planet-venus-internal.svg",
-      "geology": "./images/geology-venus.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-venus.svg?db5a344418797845ce8f0924814a193b",
+      "internal": "https://planets-tediko.netlify.app/images/planet-venus-internal.svg?1a94aa02c54e1742e5c53e0a2ae9056b",
+      "geology": "https://planets-tediko.netlify.app/images/planet-venus-geology.png?484f9dacbeb3b555ffbafb956a54b6d1"
     }
   },
   {
@@ -69,9 +69,9 @@
     "radius": "6,371 KM",
     "temperature": "16°c",
     "images": {
-      "planet": "./images/planet-earth.svg",
-      "internal": "./images/planet-earth-internal.svg",
-      "geology": "./images/geology-earth.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-earth.svg?4d12af96d901006c0b9499208a32daf6",
+      "internal": "https://planets-tediko.netlify.app/images/planet-earth-internal.svg?3c465186cd11e28615059f051f8ab2c6",
+      "geology": "https://planets-tediko.netlify.app/images/planet-earth-geology.png?61d2b324eebae64f67cfd39733917564"
     }
   },
   {
@@ -94,9 +94,9 @@
     "radius": "3,389.5 KM",
     "temperature": "-28°c",
     "images": {
-      "planet": "./images/planet-mars.svg",
-      "internal": "./images/planet-mars-internal.svg",
-      "geology": "./images/geology-mars.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-mars.svg?f9dc1ca45a888b568829cd38ca525dcb",
+      "internal": "https://planets-tediko.netlify.app/images/planet-mars-internal.svg?d867ac804b24a57bcc34c60ca5c634c8",
+      "geology": "https://planets-tediko.netlify.app/images/planet-mars-geology.png?d3ffce8e1e9b9bc5df60f03935f835e4"
     }
   },
   {
@@ -119,9 +119,9 @@
     "radius": "69,911 KM",
     "temperature": "-108°c",
     "images": {
-      "planet": "./images/planet-jupiter.svg",
-      "internal": "./images/planet-jupiter-internal.svg",
-      "geology": "./images/geology-jupiter.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-jupiter.svg?b1d0956b70a8ccb39f171a258ccd98fd",
+      "internal": "https://planets-tediko.netlify.app/images/planet-jupiter-internal.svg?3087313dbe63fee4c2e97d2c480d6add",
+      "geology": "https://planets-tediko.netlify.app/images/planet-jupiter-geology.png?93e4e021f82285517a6f43a5527420cb"
     }
   },
   {
@@ -144,9 +144,9 @@
     "radius": "58,232 KM",
     "temperature": "-138°c",
     "images": {
-      "planet": "./images/planet-saturn.svg",
-      "internal": "./images/planet-saturn-internal.svg",
-      "geology": "./images/geology-saturn.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-saturn.svg?801f886ad467514e2c016ac7c4bfa271",
+      "internal": "https://planets-tediko.netlify.app/images/planet-saturn-internal.svg?e883c55958ad2299ab4ea1674cc8382c",
+      "geology": "https://planets-tediko.netlify.app/images/planet-saturn-geology.png?b309827a4f23aaeca04358ca1de8dfdd"
     }
   },
   {
@@ -169,9 +169,9 @@
     "radius": "25,362 KM",
     "temperature": "-195°c",
     "images": {
-      "planet": "./images/planet-uranus.svg",
-      "internal": "./images/planet-uranus-internal.svg",
-      "geology": "./images/geology-uranus.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-uranus.svg?e91b297f96590dd142495611a1207397",
+      "internal": "https://planets-tediko.netlify.app/images/planet-uranus-internal.svg?578233c62999b0e1bec2f707bbeb999f",
+      "geology": "https://planets-tediko.netlify.app/images/planet-uranus-geology.png?8cec343d8e60d4b6000cb62554be7c60"
     }
   },
   {
@@ -194,9 +194,9 @@
     "radius": "24,622 KM",
     "temperature": "-201°c",
     "images": {
-      "planet": "./images/planet-neptune.svg",
-      "internal": "./images/planet-neptune-internal.svg",
-      "geology": "./images/geology-neptune.png"
+      "planet": "https://planets-tediko.netlify.app/images/planet-neptune.svg?af32296149ca9824ac1aa92201a6be37",
+      "internal": "https://planets-tediko.netlify.app/images/planet-neptune-internal.svg?3ebd623e9cc13840612d8acde5d59ab5",
+      "geology": "https://planets-tediko.netlify.app/images/planet-neptune-geology.png?d1247e414b189cfaf3661160be067e20"
     }
   }
 ]
