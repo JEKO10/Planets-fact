@@ -7,13 +7,19 @@ import Error from "./components/Error";
 
 function App() {
   const [color, setColor] = useState("");
+  const [border, setBorder] = useState("");
 
   return (
     <Router>
-      <NavBar color={color} setColor={setColor} />
+      <NavBar
+        color={color}
+        setColor={setColor}
+        border={border}
+        setBorder={setBorder}
+      />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home setColor={setColor} setBorder={setBorder} />
         </Route>
         <Route path="/planet/:id">
           <Planet color={color} />
