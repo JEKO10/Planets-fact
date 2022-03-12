@@ -2,20 +2,32 @@
   @include flex(space-evenly, flex-end);
   min-height: 50vh;
 
+  a {
+    transition: all 500ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
   #mercury {
     height: 50px;
+    animation: planetSystem 2s infinite alternate;
   }
 
   #venus {
     height: 120px;
+    animation: planetSystem 3s infinite alternate;
   }
 
   #earth {
     height: 150px;
+    animation: planetSystem 3.5s infinite alternate;
   }
 
   #mars {
     height: 70px;
+    animation: planetSystem 4s infinite alternate;
   }
 
   #jupiter,
@@ -23,5 +35,30 @@
   #uranus,
   #neptune {
     height: 180px;
+  }
+
+  #jupiter {
+    animation: planetSystem 5s infinite alternate;
+  }
+
+  #saturn {
+    animation: planetSystem 5.5s infinite alternate;
+  }
+
+  #uranus {
+    animation: planetSystem 6s infinite alternate;
+  }
+
+  #neptune {
+    animation: planetSystem 6.5s infinite alternate;
+  }
+}
+
+@keyframes planetSystem {
+  0% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, -50px);
   }
 }
