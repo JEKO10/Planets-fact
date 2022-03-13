@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Planets-fact/static/css/main.ff6a7e5d.css",
-    "main.js": "/Planets-fact/static/js/main.6e271bc9.js",
+    "main.css": "/Planets-fact/static/css/main.0b574b52.css",
+    "main.js": "/Planets-fact/static/js/main.0cce6838.js",
     "static/js/787.f80d8f82.chunk.js": "/Planets-fact/static/js/787.f80d8f82.chunk.js",
     "static/media/background-stars.svg": "/Planets-fact/static/media/background-stars.f6233a6a8d2351c57f2b.svg",
     "static/media/planet-earth.svg": "/Planets-fact/static/media/planet-earth.4d12af96d901006c0b9499208a32daf6.svg",
@@ -13,12 +13,14 @@
     "static/media/planet-mars.svg": "/Planets-fact/static/media/planet-mars.f9dc1ca45a888b568829cd38ca525dcb.svg",
     "static/media/planet-mercury.svg": "/Planets-fact/static/media/planet-mercury.1fce205c50f4657418d4562ca24b008a.svg",
     "index.html": "/Planets-fact/index.html",
-    "main.ff6a7e5d.css.map": "/Planets-fact/static/css/main.ff6a7e5d.css.map",
-    "main.6e271bc9.js.map": "/Planets-fact/static/js/main.6e271bc9.js.map",
+    "static/media/icon-close.svg": "/Planets-fact/static/media/icon-close.d47fda63cbd8b3fedbbc1b2a53f64470.svg",
+    "static/media/icon-hamburger.svg": "/Planets-fact/static/media/icon-hamburger.05a40a49142005f6faf230286ab38214.svg",
+    "main.0b574b52.css.map": "/Planets-fact/static/css/main.0b574b52.css.map",
+    "main.0cce6838.js.map": "/Planets-fact/static/js/main.0cce6838.js.map",
     "787.f80d8f82.chunk.js.map": "/Planets-fact/static/js/787.f80d8f82.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6a7e5d.css",
-    "static/js/main.6e271bc9.js"
+    "static/css/main.0b574b52.css",
+    "static/js/main.0cce6838.js"
   ]
 }
