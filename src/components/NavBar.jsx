@@ -5,6 +5,13 @@ function NavBar({ color, setColor, border, setBorder }) {
     borderTop: `5px solid ${border}`,
   };
 
+  const stylesAfter = {
+    borderBottom: `5px solid ${border}`,
+  };
+
+  const hasWindow = typeof window !== "undefined";
+  const width = hasWindow ? window.innerWidth : null;
+
   return (
     <nav>
       <Link
@@ -29,7 +36,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#def4fc" ? styles : {}}
+              style={
+                border === "#def4fc" && width > 992
+                  ? styles
+                  : border === "#def4fc"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/0"
               className={color === "#419db9" ? "active" : ""}
             >
@@ -44,7 +57,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#f7cc7e" ? styles : {}}
+              style={
+                border === "#f7cc7e" && width > 992
+                  ? styles
+                  : border === "#f7cc7e"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/1"
               className={color === "#eda44a" ? "active" : ""}
             >
@@ -59,7 +78,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#5358fb" ? styles : {}}
+              style={
+                border === "#5358fb" && width > 992
+                  ? styles
+                  : border === "#5358fb"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/2"
               className={color === "#6f2ed6" ? "active" : ""}
             >
@@ -74,7 +99,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#ff6c47" ? styles : {}}
+              style={
+                border === "#ff6c47" && width > 992
+                  ? styles
+                  : border === "#ff6c47"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/3"
               className={color === "#d14e33" ? "active" : ""}
             >
@@ -89,7 +120,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#ecad79" ? styles : {}}
+              style={
+                border === "#ecad79" && width > 992
+                  ? styles
+                  : border === "#ecad79"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/4"
               className={color === "#d93b36" ? "active" : ""}
             >
@@ -104,7 +141,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#fccb69" ? styles : {}}
+              style={
+                border === "#fccb69" && width > 992
+                  ? styles
+                  : border === "#fccb69"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/5"
               className={color === "#cb5020" ? "active" : ""}
             >
@@ -119,7 +162,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#66f0d4" ? styles : {}}
+              style={
+                border === "#66f0d4" && width > 992
+                  ? styles
+                  : border === "#66f0d4"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/6"
               className={color === "#1ec2a4" ? "active" : ""}
             >
@@ -134,7 +183,13 @@ function NavBar({ color, setColor, border, setBorder }) {
           >
             <div id="ball"></div>
             <Link
-              style={border === "#477dfa" ? styles : {}}
+              style={
+                border === "#477dfa" && width > 992
+                  ? styles
+                  : border === "#477dfa"
+                  ? stylesAfter
+                  : {}
+              }
               to="/planet/7"
               className={color === "#2e68f0" ? "active" : ""}
             >

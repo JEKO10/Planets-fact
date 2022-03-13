@@ -1,0 +1,26 @@
+@include mediaLarge {
+  .main {
+    @include flex(center, center);
+    flex-direction: column;
+
+    .images #geology {
+      height: 130px;
+      margin-top: -8rem;
+    }
+
+    #planet {
+      margin: 3rem 0;
+      max-width: 285px;
+    }
+
+    .planetInfo {
+      min-width: 100%;
+      padding: 0 25px;
+      @include flex(space-between, center);
+    }
+  }
+
+  .otherInfo div h1 {
+    font-size: 1.5rem;
+  }
+}

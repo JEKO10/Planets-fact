@@ -5,6 +5,7 @@ import data from "../data.json";
 function Planet({ color }) {
   const { id } = useParams();
   const [internal, setInternal] = useState(false);
+  const [geology, setGeology] = useState(false);
   const [active, setActive] = useState("overview");
   const { name, overview, rotation, revolution, radius, temperature, images } =
     data[id];
@@ -14,16 +15,11 @@ function Planet({ color }) {
       <section className="main">
         <div className="images">
           {!internal ? (
-            <img src={images.planet} alt="IMG" />
+            <img src={images.planet} alt="IMG" id="planet" />
           ) : (
-            <img src={images.internal} alt="IMG" />
+            <img src={images.internal} alt="IMG" id="planet" />
           )}
-          <img
-            src={images.geology}
-            alt="IMG"
-            id="geologyImg"
-            style={{ display: "none" }}
-          />
+          {geology ? <img src={images.geology} alt="IMG" id="geology" /> : ""}
         </div>
         <div className="planetInfo">
           <div>
@@ -54,6 +50,7 @@ function Planet({ color }) {
               onClick={() => {
                 setInternal(false);
                 setActive("overview");
+                setGeology(false);
               }}
             >
               <span>01</span> Overview
@@ -68,6 +65,7 @@ function Planet({ color }) {
               onClick={() => {
                 setInternal(true);
                 setActive("internal");
+                setGeology(false);
               }}
             >
               <span>02</span> Internal Structure
@@ -81,6 +79,7 @@ function Planet({ color }) {
               className={active === "geology" ? "active" : ""}
               onClick={() => {
                 setActive("geology");
+                setGeology(true);
               }}
             >
               <span>03</span> Surface Geology
