@@ -1,6 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import hamburger from "../assets/icon-hamburger.svg";
+import close from "../assets/icon-close.svg";
 
 function NavBar({ color, setColor, border, setBorder }) {
+  const [isFix, setIsFix] = useState(false);
+
   const styles = {
     borderTop: `5px solid ${border}`,
   };
@@ -23,15 +28,21 @@ function NavBar({ color, setColor, border, setBorder }) {
       >
         <h1>The Planets</h1>
       </Link>
-      <button id="hamburgerBtn">
-        <img src="./icon-hamburger.svg" alt="btn" />
+      <button
+        id="hamburgerBtn"
+        onClick={() => {
+          setIsFix(!isFix);
+        }}
+      >
+        <img src={!isFix ? hamburger : close} alt="btn" />
       </button>
-      <div className="fix">
+      <div className={isFix ? "fix active" : "fix"}>
         <ul className="links">
           <li
             onClick={() => {
               setColor("#419db9");
               setBorder("#def4fc");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -53,6 +64,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#eda44a");
               setBorder("#f7cc7e");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -74,6 +86,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#6f2ed6");
               setBorder("#5358fb");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -95,6 +108,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#d14e33");
               setBorder("#ff6c47");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -116,6 +130,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#d93b36");
               setBorder("#ecad79");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -137,6 +152,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#cb5020");
               setBorder("#fccb69");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -158,6 +174,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#1ec2a4");
               setBorder("#66f0d4");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
@@ -179,6 +196,7 @@ function NavBar({ color, setColor, border, setBorder }) {
             onClick={() => {
               setColor("#2e68f0");
               setBorder("#477dfa");
+              setIsFix(false);
             }}
           >
             <div id="ball"></div>
