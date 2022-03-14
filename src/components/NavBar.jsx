@@ -45,7 +45,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="mercuryBall"></div>
             <Link
               style={
                 border === "#def4fc" && width > 992
@@ -67,7 +67,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="venusBall"></div>
             <Link
               style={
                 border === "#f7cc7e" && width > 992
@@ -89,7 +89,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="earthBall"></div>
             <Link
               style={
                 border === "#5358fb" && width > 992
@@ -111,7 +111,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="marsBall"></div>
             <Link
               style={
                 border === "#ff6c47" && width > 992
@@ -133,7 +133,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="jupiterBall"></div>
             <Link
               style={
                 border === "#ecad79" && width > 992
@@ -155,7 +155,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="saturnBall"></div>
             <Link
               style={
                 border === "#fccb69" && width > 992
@@ -177,7 +177,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="uranusBall"></div>
             <Link
               style={
                 border === "#66f0d4" && width > 992
@@ -199,7 +199,7 @@ function NavBar({ color, setColor, border, setBorder }) {
               setIsFix(false);
             }}
           >
-            <div id="ball"></div>
+            <div id="neptuneBall"></div>
             <Link
               style={
                 border === "#477dfa" && width > 992
