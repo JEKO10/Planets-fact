@@ -120,11 +120,28 @@
       width: 95%;
       margin: 1rem 0;
       @include flex(space-between, center);
-      padding: 10px 5px;
+      padding: 10px 10px;
 
       h5 {
         padding-bottom: 0;
       }
+    }
+  }
+}
+
+@include mediaSmall {
+  .main {
+    #planet {
+      max-width: 200px;
+    }
+  }
+
+  .buttonContainer button {
+    text-align: center !important;
+    padding: 20px 10px !important;
+
+    span {
+      display: none;
     }
   }
 }
