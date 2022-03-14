@@ -56,6 +56,12 @@
     }
   }
 
+  .system {
+    min-height: 100vh;
+    margin-top: 2rem;
+    @include flex(center, center);
+  }
+
   .fix {
     display: none;
     position: fixed;
@@ -158,6 +164,17 @@
       h5 {
         padding-bottom: 0;
       }
+    }
+  }
+}
+
+@include mediaMediumLow {
+  .system {
+    flex-direction: column;
+
+    img {
+      animation: none !important;
+      margin: 1rem 0 !important;
     }
   }
 }

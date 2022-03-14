@@ -1,12 +1,17 @@
 .system {
   @include flex(space-evenly, flex-end);
-  min-height: 50vh;
+  min-height: 80vh;
+  flex-wrap: wrap;
 
   a {
     transition: all 500ms ease-in-out;
 
     &:hover {
       transform: scale(1.2);
+    }
+
+    img {
+      margin: 0 1rem;
     }
   }
 
