@@ -14,7 +14,7 @@ function Planet({ color }) {
     <>
       <section className="main">
         <div className="images">
-          {!internal ? (
+          {!internal || active === "geology" ? (
             <img src={images.planet} alt="IMG" id="planet" />
           ) : (
             <img src={images.internal} alt="IMG" id="planet" />
