@@ -13,12 +13,12 @@
 
 ## Project task
 
-This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). This website is 8-page fact site for all planets in our solar system.
+This is a solution to the [Planets fact site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/planets-fact-site-gazqN8w_f). This website is an 8-page fact site for all planets in our solar system.
 
 
 ## Project overview
 
-Home page displays all planets in our solar system which you can select to learn more about. There are some basic info about planets like short description, internal structure, surface geology, rotation time, radius, etc. I used React Router Dom for website navigation. I also created error page. Website is fully responsive.
+The home page displays all planets in our solar system which you can select to learn more about. There is some basic info about planets like a short description, internal structure, surface geology, rotation time, radius, etc. I used React Router Dom for website navigation. I also created an error page. The website is fully responsive.
 
 ## Built with
 
